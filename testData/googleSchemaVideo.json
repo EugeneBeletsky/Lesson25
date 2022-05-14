@@ -1,0 +1,750 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "results": {
+        "type": "array",
+        "items": [
+          {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "link": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "additional_links": {
+                "type": "array",
+                "items": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string"
+                      },
+                      "href": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "href"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string"
+                      },
+                      "href": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "href"
+                    ]
+                  }
+                ]
+              },
+              "cite": {
+                "type": "object",
+                "properties": {
+                  "domain": {
+                    "type": "string"
+                  },
+                  "span": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "domain",
+                  "span"
+                ]
+              }
+            },
+            "required": [
+              "title",
+              "link",
+              "description",
+              "additional_links",
+              "cite"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "link": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "additional_links": {
+                "type": "array",
+                "items": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string"
+                      },
+                      "href": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "href"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string"
+                      },
+                      "href": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "href"
+                    ]
+                  }
+                ]
+              },
+              "cite": {
+                "type": "object",
+                "properties": {
+                  "domain": {
+                    "type": "string"
+                  },
+                  "span": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "domain",
+                  "span"
+                ]
+              }
+            },
+            "required": [
+              "title",
+              "link",
+              "description",
+              "additional_links",
+              "cite"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "link": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "additional_links": {
+                "type": "array",
+                "items": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string"
+                      },
+                      "href": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "href"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string"
+                      },
+                      "href": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "href"
+                    ]
+                  }
+                ]
+              },
+              "cite": {
+                "type": "object",
+                "properties": {
+                  "domain": {
+                    "type": "string"
+                  },
+                  "span": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "domain",
+                  "span"
+                ]
+              }
+            },
+            "required": [
+              "title",
+              "link",
+              "description",
+              "additional_links",
+              "cite"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "link": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "additional_links": {
+                "type": "array",
+                "items": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string"
+                      },
+                      "href": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "href"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string"
+                      },
+                      "href": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "href"
+                    ]
+                  }
+                ]
+              },
+              "cite": {
+                "type": "object",
+                "properties": {
+                  "domain": {
+                    "type": "string"
+                  },
+                  "span": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "domain",
+                  "span"
+                ]
+              }
+            },
+            "required": [
+              "title",
+              "link",
+              "description",
+              "additional_links",
+              "cite"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "link": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "additional_links": {
+                "type": "array",
+                "items": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string"
+                      },
+                      "href": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "href"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string"
+                      },
+                      "href": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "href"
+                    ]
+                  }
+                ]
+              },
+              "cite": {
+                "type": "object",
+                "properties": {
+                  "domain": {
+                    "type": "string"
+                  },
+                  "span": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "domain",
+                  "span"
+                ]
+              }
+            },
+            "required": [
+              "title",
+              "link",
+              "description",
+              "additional_links",
+              "cite"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "link": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "additional_links": {
+                "type": "array",
+                "items": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string"
+                      },
+                      "href": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "href"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string"
+                      },
+                      "href": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "href"
+                    ]
+                  }
+                ]
+              },
+              "cite": {
+                "type": "object",
+                "properties": {
+                  "domain": {
+                    "type": "string"
+                  },
+                  "span": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "domain",
+                  "span"
+                ]
+              }
+            },
+            "required": [
+              "title",
+              "link",
+              "description",
+              "additional_links",
+              "cite"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "link": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "additional_links": {
+                "type": "array",
+                "items": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string"
+                      },
+                      "href": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "href"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string"
+                      },
+                      "href": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "href"
+                    ]
+                  }
+                ]
+              },
+              "cite": {
+                "type": "object",
+                "properties": {
+                  "domain": {
+                    "type": "string"
+                  },
+                  "span": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "domain",
+                  "span"
+                ]
+              }
+            },
+            "required": [
+              "title",
+              "link",
+              "description",
+              "additional_links",
+              "cite"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "link": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "additional_links": {
+                "type": "array",
+                "items": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string"
+                      },
+                      "href": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "href"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string"
+                      },
+                      "href": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "href"
+                    ]
+                  }
+                ]
+              },
+              "cite": {
+                "type": "object",
+                "properties": {
+                  "domain": {
+                    "type": "string"
+                  },
+                  "span": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "domain",
+                  "span"
+                ]
+              }
+            },
+            "required": [
+              "title",
+              "link",
+              "description",
+              "additional_links",
+              "cite"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "link": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "additional_links": {
+                "type": "array",
+                "items": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string"
+                      },
+                      "href": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "href"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string"
+                      },
+                      "href": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "href"
+                    ]
+                  }
+                ]
+              },
+              "cite": {
+                "type": "object",
+                "properties": {
+                  "domain": {
+                    "type": "string"
+                  },
+                  "span": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "domain",
+                  "span"
+                ]
+              }
+            },
+            "required": [
+              "title",
+              "link",
+              "description",
+              "additional_links",
+              "cite"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "link": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "additional_links": {
+                "type": "array",
+                "items": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string"
+                      },
+                      "href": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "href"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string"
+                      },
+                      "href": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "href"
+                    ]
+                  }
+                ]
+              },
+              "cite": {
+                "type": "object",
+                "properties": {
+                  "domain": {
+                    "type": "string"
+                  },
+                  "span": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "domain",
+                  "span"
+                ]
+              }
+            },
+            "required": [
+              "title",
+              "link",
+              "description",
+              "additional_links",
+              "cite"
+            ]
+          }
+        ]
+      },
+      "image_results": {
+        "type": "array",
+        "items": {}
+      },
+      "total": {
+        "type": "integer"
+      },
+      "answers": {
+        "type": "array",
+        "items": {}
+      },
+      "ts": {
+        "type": "number"
+      },
+      "device_region": {
+        "type": "string"
+      },
+      "device_type": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "results",
+      "image_results",
+      "total",
+      "answers",
+      "ts",
+      "device_region",
+      "device_type"
+    ]
+  }
